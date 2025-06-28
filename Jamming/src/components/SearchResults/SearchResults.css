@@ -1,0 +1,23 @@
+.search-results {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.search-results-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.search-results h2 {
+  color: #1ed760;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .search-results {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+}

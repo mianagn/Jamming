@@ -1,0 +1,79 @@
+.playlist {
+  flex: 1;
+  margin-left: 1rem;
+}
+
+.playlist-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.playlist-name {
+  color: #1ed760;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  height: 36px;
+  line-height: 36px;
+  padding: 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.playlist-name:hover {
+  background-color:grey;
+  transition: background-color 1s ease;
+}
+
+.playlist-name-form {
+  display: inline-block;
+  margin: 0;
+}
+
+.playlist-name-input {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  border: 2px solid #1db954;
+  border-radius: 4px;
+  padding: 0;
+  outline: none;
+  background-color: white;
+  color: #1ed760;
+  height: 36px;
+  line-height: 32px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.save-playlist-button {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-playlist-button:hover:not(:disabled) {
+  background-color: #1ed760;
+}
+
+.save-playlist-button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .playlist {
+    margin-left: 0;
+  }
+}

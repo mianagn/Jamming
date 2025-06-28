@@ -1,0 +1,64 @@
+.track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.track:hover {
+  background-color: #f3f4f6;
+  border-color: #d1d5db;
+}
+
+.track-info {
+  flex: 1;
+}
+
+.track-name {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.track-details {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.track-action {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.track-action.add {
+  background-color: #1db954;
+  color: white;
+}
+
+.track-action.add:hover {
+  background-color: #1ed760;
+  transform: scale(1.1);
+}
+
+.track-action.remove {
+  background-color: #ef4444;
+  color: white;
+}
+
+.track-action.remove:hover {
+  background-color: #f87171;
+  transform: scale(1.1);
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #000000, #191414);
+  color: white;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  padding: 2rem;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.app-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.highlight {
+  color: #1db954;
+}
+
+.app-playlist {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 1rem;
+  }
+  
+  .app-header h1 {
+    font-size: 2rem;
+  }
+  
+  .app-playlist {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
